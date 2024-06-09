@@ -15,7 +15,7 @@
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type, Authorization, X-CSRFToken, X-Requested-With"
       },
-      "dest": "full_auth/wsgi.py"
+      "dest": "https://blab-api.vercel.app/"
     },
     {
       "src": "/(.*)",
