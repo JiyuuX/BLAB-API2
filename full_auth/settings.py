@@ -239,11 +239,12 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
 
 # CORS ayarları
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
     'https://blab-nextjs.vercel.app',
-    'https://blab-api.vercel.app',
     'https://blab-nextjs.vercel.app/',
+    'https://blab-nextjs.vercel.app/auth/register',
+    'https://blab-nextjs.vercel.app/auth/login',
+    
+    'https://blab-api.vercel.app',
     'https://blab-api.vercel.app/',
     'https://blab-api.vercel.app/api/users/',
     'https://blab-api.vercel.app/api/jwt/verify/',
