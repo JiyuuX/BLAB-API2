@@ -256,6 +256,7 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
     'content-type',
+    "Access-Control-Allow-Origin":"*"
 ]
 CORS_ALLOW_METHODS = [
     'GET',
