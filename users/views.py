@@ -112,3 +112,18 @@ class LogoutView(APIView):
         response.delete_cookie('refresh')
 
         return response
+
+
+
+
+# views.py
+from django.http import JsonResponse
+
+def test_cors(request):
+    response = JsonResponse({'message': 'CORS test successful'})
+    response["Access-Control-Allow-Origin"] = "https://blab-nextjs.vercel.app"
+    response["Access-Control-Allow-Credentials"] = "true"
+    response["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
+    response["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+    return response
+
