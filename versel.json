@@ -8,14 +8,14 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
+      "src": "/(.*)",
       "headers": {
         "Access-Control-Allow-Origin": "https://blab-nextjs.vercel.app",
         "Access-Control-Allow-Credentials": "true",
         "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
         "Access-Control-Allow-Headers": "Content-Type, Authorization, X-CSRFToken, X-Requested-With"
       },
-      "dest": "https://blab-api.vercel.app"
+    
     },
     {
       "src": "/(.*)",
