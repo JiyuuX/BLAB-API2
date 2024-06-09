@@ -62,7 +62,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',
+    #'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -238,33 +238,33 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
 }
 
 # CORS ayarları
-CORS_ALLOWED_ORIGINS = [
-    'https://blab-nextjs.vercel.app',
-    'https://blab-nextjs.vercel.app/',
-    'https://blab-nextjs.vercel.app/auth/register',
-    'https://blab-nextjs.vercel.app/auth/login',
-    'https://blab-nextjs.vercel.app/auth/login/',
+#CORS_ALLOWED_ORIGINS = [
+#    'https://blab-nextjs.vercel.app',
+#    'https://blab-nextjs.vercel.app/',
+#    'https://blab-nextjs.vercel.app/auth/register',
+#    'https://blab-nextjs.vercel.app/auth/login',
+#    'https://blab-nextjs.vercel.app/auth/login/',
     
-    'https://blab-api.vercel.app',
-    'https://blab-api.vercel.app/',
-    'https://blab-api.vercel.app/api/users/',
-    'https://blab-api.vercel.app/api/jwt/verify/',
-    'https://blab-api.vercel.app/api/test-cors/',
-    'https://blab-api.vercel.app/api/users/reset_password/',
+#    'https://blab-api.vercel.app',
+#    'https://blab-api.vercel.app/',
+#    'https://blab-api.vercel.app/api/users/',
+#    'https://blab-api.vercel.app/api/jwt/verify/',
+#    'https://blab-api.vercel.app/api/test-cors/',
+#    'https://blab-api.vercel.app/api/users/reset_password/',
     
-]
-CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_HEADERS = [
-    'content-type',
-    "Access-Control-Allow-Origin":"*"
-]
-CORS_ALLOW_METHODS = [
-    'GET',
-    'POST',
-    'PUT',
-    'DELETE',
-    'OPTIONS',
-]
+#]
+#CORS_ALLOW_CREDENTIALS = True
+#CORS_ALLOW_HEADERS = [
+ #   'content-type',
+ #   "Access-Control-Allow-Origin":"*"
+#]
+#CORS_ALLOW_METHODS = [
+#    'GET',
+#    'POST',
+#    'PUT',
+#    'DELETE',
+#    'OPTIONS',
+#]
 
 
 
