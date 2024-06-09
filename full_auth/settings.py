@@ -244,7 +244,10 @@ CORS_ALLOWED_ORIGINS = [
     'https://blab-nextjs.vercel.app',
     'https://blab-api.vercel.app',
     'https://blab-nextjs.vercel.app/',
-    'https://blab-api.vercel.app/'
+    'https://blab-api.vercel.app/',
+    'https://blab-api.vercel.app/api/users/',
+    'https://blab-api.vercel.app/jwt/verify/',
+    
 ]
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
