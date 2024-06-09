@@ -248,6 +248,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://blab-api.vercel.app/api/users/',
     'https://blab-api.vercel.app/api/jwt/verify/',
     'https://blab-api.vercel.app/api/test-cors/',
+    'https://blab-api.vercel.app/api/users/reset_password/',
     
 ]
 CORS_ALLOW_CREDENTIALS = True
