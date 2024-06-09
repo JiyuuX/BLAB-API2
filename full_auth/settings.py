@@ -243,6 +243,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://blab-nextjs.vercel.app/',
     'https://blab-nextjs.vercel.app/auth/register',
     'https://blab-nextjs.vercel.app/auth/login',
+    'https://blab-nextjs.vercel.app/auth/login/',
     
     'https://blab-api.vercel.app',
     'https://blab-api.vercel.app/',
