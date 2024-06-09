@@ -10,7 +10,7 @@
     {
       "src": "/(.*)",
       "headers": {
-        "Access-Control-Allow-Origin": "https://blab-api.vercel.app/",
+        "Access-Control-Allow-Origin": "https://blab-nextjs.vercel.app/",
       },
     
     },
