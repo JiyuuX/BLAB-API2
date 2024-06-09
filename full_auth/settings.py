@@ -40,7 +40,9 @@ DEBUG = getenv('DEBUG', 'False') == 'True'
 #                       '.vercel.app',).split(',')
 
 
-ALLOWED_HOSTS =['.vercel.app', '.now.sh', 'localhost', '127.0.0.1']
+
+
+ALLOWED_HOSTS =['.vercel.app', '.now.sh', 'localhost', '127.0.0.1', 'https://blab-api.vercel.app/','https://blab-nextjs.vercel.app/' ]
 
 # Application definition
 
