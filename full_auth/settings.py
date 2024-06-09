@@ -237,21 +237,22 @@ SOCIAL_AUTH_FACEBOOK_PROFILE_EXTRA_PARAMS = {
     'fields': 'email, first_name, last_name'
 }
 
-CORS_ALLOWED_ORIGINS = getenv(
-    'CORS_ALLOWED_ORIGINS',
-    'http://localhost:3000,http://127.0.0.1:3000','https://blab-nextjs.vercel.app', 'https://blab-api.vercel.app', 'https://blab-nextjs.vercel.app/', 'https://blab-api.vercel.app/'
-).split(',')
+# CORS ayarları
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'https://blab-nextjs.vercel.app',
+    'https://blab-api.vercel.app',
+    'https://blab-nextjs.vercel.app/',
+    'https://blab-api.vercel.app/'
+]
 CORS_ALLOW_CREDENTIALS = True
-
-
-
 CORS_ALLOW_HEADERS = [
     'content-type',
     'authorization',
     'x-csrftoken',
     'x-requested-with',
 ]
-
 CORS_ALLOW_METHODS = [
     'GET',
     'POST',
