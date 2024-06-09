@@ -247,9 +247,10 @@ CORS_ALLOWED_ORIGINS = [
     'https://blab-api.vercel.app/',
     'https://blab-api.vercel.app/api/users/',
     'https://blab-api.vercel.app/api/jwt/verify/',
+    'https://blab-api.vercel.app/api/test-cors/',
     
 ]
-CORS_ALLOW_CREDENTIALS = False
+CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOW_HEADERS = [
     'content-type',
     'authorization',
